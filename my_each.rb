@@ -9,4 +9,5 @@ def my_each(collection)
   else
     "fail gracefully"
   end
+  collection
 end
