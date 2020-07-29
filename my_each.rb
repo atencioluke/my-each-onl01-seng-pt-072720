@@ -6,8 +6,8 @@ def my_each(collection)
       yield(collection[i])
       i += 1
     end
-  else
-    "fail gracefully"
+  # else
+  #   "fail gracefully"
   end
   collection
 end
