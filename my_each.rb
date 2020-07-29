@@ -7,6 +7,6 @@ def my_each(collection)
       i += 1
     end
   else
-    puts "fail gracefully"
+    "fail gracefully"
   end
 end
